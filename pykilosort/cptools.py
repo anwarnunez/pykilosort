@@ -164,7 +164,7 @@ def svdecon(X, nPC0=None):
 
 
 def svdecon_cpu(X):
-    U, S, V = np.linalg.svd(cp.asnumpy(X))
+    U, S, V = np.linalg.svd(cp.asnumpy(X), full_matrices=False)
     return U, np.diag(S), V
 
 
