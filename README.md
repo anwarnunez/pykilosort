@@ -20,6 +20,7 @@ A good CPU and a large amount of RAM (minimum 32GB or 64GB) is also required.
 * tqdm
 * click
 * pytest
+* numba
 
 
 ## Usage example
